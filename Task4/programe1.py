@@ -1,0 +1,11 @@
+import numpy as np
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+result=np.add(a,b)
+print("addition of array :",result)
+sub=np.subtract(a,b)
+print("subtraction of array:",sub)
+div=np.divide(a,b)
+print("division of array:",div)
+mul=np.multiply(a,b)
+print("multiplication of array:",mul)
